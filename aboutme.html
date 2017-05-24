@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet"type="text/css" />
+        <link href="fonts/fonts.css" rel="stylesheet" type="text/css" />
+
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+        <script src="https://use.fontawesome.com/5ff1a851d3.js"></script>
+
+        <script src="javascript/jquery-3.2.1.min.js"></script>
+        <script src="javascript/background.js"></script>
+        <script src="javascript/dropdown.js"></script>
+
+        <title>ABOUT ME</title>
+    </head>
+
+    <body>
+			<div class="web">
+        <nav class="web-nav">
+          <ul>
+            <li class="nav-left"><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="nav-right"><a href="aboutme.html">About Me</a></li>
+          </ul>
+      	</nav>
+
+        <section class="one-half" id="text-left">
+       		<span class="center-text-p">
+        		<img src="image/profil.jpg" alt="Maximilian Andersen" class="img-round">
+        		<br>
+        		<span class="about-name-text">
+        			Maksimilian Andersen
+        	</span>
+        </section>
+
+        <section class="one-half" id="text-right">
+          <span class="center-text-p">
+          <span class="center-text-c">
+            <div class="justify-text margin-section-text">
+                <span class="half-section-text center-text-c">
+                  About me
+                </span>
+
+                <span class="font-size-small">
+                  Hi my name is Maksimilian Andersen and I'm a 17
+                  year old boy living in Malmö, Sweden. I'm
+                  currently studying at Polhemskolan in Lund and 2017
+                  is my second year out of 3 at this school.
+                  This website is a part of a web development course
+                  im taking at school.
+                </span>
+            </div>
+            </span>
+          </span>
+        </section>
+			</div>
+
+      <div class="phone">
+      	<nav class="phone-nav">
+          <ul>
+            <li><a class="nav-left" <a href="index.html">{poppy}</a></li>
+            <li class="nav-right dropdowntoggle" style="margin-right: 35px" onclick="openMenu()"><i class="fa fa-bars" aria-hidden="true"></i></li>
+          </ul>
+         </nav>
+
+        <div class="dropdown">
+          <span class="dropdown-item"><a href="projects.html">Projects</a></span>
+          <span class="dropdown-item"><a href="contact.html">Contact</a></span>
+          <span class="dropdown-item"><a href="aboutme.html">About me</a></span>
+          <span class="dropdown-item"><a onclick="closeMenu()"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></span>
+     		</div>
+
+        <section class="desc-section">
+      	<div class="phone-text-wrapper">
+            <span class="phone-desc">My name is Maksimilian</span>
+
+            <span class="phone-text">
+              and I'm a 17 year old boy living in Malmö, Sweden. I'm
+              currently studying at Polhemskolan in Lund and 2017
+              is my second year out of 3 at this school.
+              This website is a part of a web development course
+              im taking at school.
+            </span>
+        </div>
+      	</section>
+
+
+    	</div>
+	</body>
+</html>
