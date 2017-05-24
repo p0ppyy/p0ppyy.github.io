@@ -200,13 +200,21 @@ i.icon-phone:visited{
 	margin-right:20%;
 }
 
-#header-text-big{
-	font-size:100px;
+.header-text-extrabig{
+  font-size: 70px;
   display: block;
+
 }
-#header-text-small{
-  display: block;
+
+.header-text-big{
 	font-size:50px;
+  display: block;
+
+}
+.header-text-small{
+  display: block;
+	font-size:25px;
+
 }
 
 #project-wrapper{
