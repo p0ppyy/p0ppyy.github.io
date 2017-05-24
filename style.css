@@ -51,6 +51,8 @@ body{
 
 .justify-text{
 	text-align:justify;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .half-section-text{
@@ -201,7 +203,7 @@ i.icon-phone:visited{
 }
 
 .header-text-extrabig{
-  font-size: 70px;
+  font-size: 100px;
   display: block;
 
 }
@@ -369,6 +371,17 @@ i.icon{
   -moz-transition: height .1s;
   transition: height .1s;
 }
+
+.icon-aboutme{
+  display: none;
+  transform: translateY(1000%);
+
+}
+.project-spacing{
+  margin-bottom: 300px;
+
+}
+
 @media only screen and (max-width: 1225px) {
 
   .project-box{
@@ -376,12 +389,25 @@ i.icon{
 
   }
 
+
+
+
 }
 
 
 @media only screen and (max-width: 1100px) {
   .one-half{
     width: 100%;
+
+  }
+
+  .icon-aboutme{
+    display: block;
+
+  }
+
+  #project-wrapper{
+    overflow: visible;
 
   }
 
@@ -394,12 +420,10 @@ i.icon{
     display: block;
 
   }
-
-
-
   .project-desc{
     display: block;
-
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
 }

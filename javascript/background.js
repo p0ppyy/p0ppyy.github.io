@@ -5,7 +5,7 @@ $(document).ready(function() {
 });
 
 function changeBackground(){
-	if($(this).width() > 520){
+	if($(this).width() > 1100){
 		if(time % 2 > 0){
 			$("body").css("background-image", "url('image/bg1.png')" );
 		}else{
