@@ -383,6 +383,11 @@ i.icon{
   transform: translateY(1000%);
 
 }
+.icon-aboutme-high{
+  display: none;
+  transform: translateY(800%);
+
+}
 .project-spacing{
   margin-bottom: 300px;
 
