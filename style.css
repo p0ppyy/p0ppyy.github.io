@@ -445,6 +445,15 @@ i.icon{
 
 @media only screen and (max-width: 520px) {
 
+	.icon-aboutme{
+   	 display: none;
+
+ 	 }
+  	.icon-aboutme-high{
+    		display: none;
+	
+  	}	
+	
       body{
         background-color:#fcd9e7
 
